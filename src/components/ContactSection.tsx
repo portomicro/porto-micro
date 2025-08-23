@@ -66,13 +66,13 @@ const ContactSection = () => {
             </CardHeader>
             <CardContent className="space-y-3">
               <Button asChild variant="outline" size="sm" className="w-full">
-                <a href="https://www.instagram.com/portomicro" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href="https://www.instagram.com/portomicro.info" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Instagram className="w-4 h-4" />
                   Instagram
                 </a>
               </Button>
               <Button asChild variant="outline" size="sm" className="w-full">
-                <a href="https://www.facebook.com/portomicro" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href="https://www.facebook.com/portomicro.info" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Facebook className="w-4 h-4" />
                   Facebook
                 </a>

@@ -32,8 +32,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Suporte</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Central de Ajuda</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Contato</a></li>
+              <li><a href="https://app.portomicro.com.br/hc/Ajuda/pt_BR" className="hover:text-foreground transition-colors">Central de Ajuda</a></li>
+              <li><a href="https://p.portomicro.com.br/appointly/appointments_public/form?col=col-md-8+col-md-offset-2" className="hover:text-foreground transition-colors">Contato</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Status</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Changelog</a></li>
             </ul>
