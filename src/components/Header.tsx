@@ -16,8 +16,8 @@ const Header = () => {
           <a href="#solucoes" className="text-muted-foreground hover:text-foreground transition-colors">
             Soluções
           </a>
-          <a href="#valores" className="text-muted-foreground hover:text-foreground transition-colors">Valores Planos </a>
-          <a href="#central-ajuda" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://portozaap-xfzk02y.gamma.site/planos" className="text-muted-foreground hover:text-foreground transition-colors">Valores Planos </a>
+          <a href="https://app.portomicro.com.br/hc/Ajuda/pt_BR" className="text-muted-foreground hover:text-foreground transition-colors">
             Central de Ajuda
           </a>
           <a href="#suporte" className="text-muted-foreground hover:text-foreground transition-colors">
