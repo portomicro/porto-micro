@@ -45,10 +45,10 @@ const Footer = () => {
             © 2024 Porto Micro. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://app.portomicro.com.br/ajuda/politica-de-privacidade.html" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacidade
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://app.portomicro.com.br/ajuda/termos-de-uso.html" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Termos
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">

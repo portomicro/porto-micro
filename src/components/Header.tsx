@@ -30,11 +30,15 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Button variant="outline" size="sm">
-            Entrar
+          <Button asChild variant="outline" size="sm">
+            <a href="https://app.portomicro.com.br" target="_blank" rel="noopener noreferrer">
+              Entrar
+            </a>
           </Button>
-          <Button size="sm" className="bg-primary hover:bg-primary/90">
-            Começar Agora
+          <Button asChild size="sm" className="bg-primary hover:bg-primary/90">
+            <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
+              Começar Agora
+            </a>
           </Button>
         </div>
       </div>
