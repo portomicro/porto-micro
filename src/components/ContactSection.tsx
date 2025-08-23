@@ -31,8 +31,8 @@ const ContactSection = () => {
             </CardHeader>
             <CardContent>
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                <a href="https://app.portomicro.com.br" target="_blank" rel="noopener noreferrer">
-                  app.portomicro.com.br
+                <a href="https://p.portomicro.com.br/appointly/appointments_public/form?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener noreferrer">
+                  Agendar Demonstração
                 </a>
               </Button>
             </CardContent>

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import PillarsSection from "@/components/PillarsSection";
+import FeaturesSection from "@/components/FeaturesSection";
 import ContactSection from "@/components/ContactSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Footer from "@/components/Footer";
@@ -10,9 +11,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <main>
-        <HeroSection />
-        <PillarsSection />
-        <ContactSection />
+      <HeroSection />
+      <PillarsSection />
+      <FeaturesSection />
+      <ContactSection />
       </main>
       <Footer />
       <WhatsAppButton />
