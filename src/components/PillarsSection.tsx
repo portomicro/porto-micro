@@ -40,7 +40,7 @@ const pillars = [
 
 const PillarsSection = () => {
   return (
-    <section className="py-20 px-4 bg-card/30 backdrop-blur-sm">
+    <section id="recursos" className="py-20 px-4 bg-card/30 backdrop-blur-sm">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
