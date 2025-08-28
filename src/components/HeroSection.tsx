@@ -38,11 +38,15 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="px-8 py-6 text-lg">
-            Começar Agora
+          <Button asChild variant="hero" size="lg" className="px-8 py-6 text-lg">
+            <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
+              Começar Agora
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-6 text-lg">
-            Agendar Demonstração
+          <Button asChild variant="outline" size="lg" className="px-8 py-6 text-lg">
+            <a href="https://p.portomicro.com.br/appointly/appointments_public/form?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener noreferrer">
+              Agendar Demonstração
+            </a>
           </Button>
         </div>
       </div>

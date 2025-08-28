@@ -1,5 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
+import mariaImage from "@/assets/testimonial-maria.jpg";
+import joaoImage from "@/assets/testimonial-joao.jpg";
+import anaImage from "@/assets/testimonial-ana.jpg";
+import carlosImage from "@/assets/testimonial-carlos.jpg";
 
 const testimonials = [
   {
@@ -8,7 +12,8 @@ const testimonials = [
     role: "Gerente de Atendimento",
     content: "O PortoMicro revolucionou nosso atendimento! Centralizamos WhatsApp, Instagram e chat do site em uma única plataforma. Nossa produtividade aumentou 300% e nunca mais perdemos uma mensagem de cliente.",
     rating: 5,
-    avatar: "MS"
+    avatar: "MS",
+    image: mariaImage
   },
   {
     name: "João Santos",
@@ -16,7 +21,8 @@ const testimonials = [
     role: "Administrador",
     content: "A integração com IA é fantástica! Nossos atendentes escrevem de forma mais profissional e os agendamentos automáticos pelo WhatsApp facilitaram muito a vida dos nossos pacientes. Recomendo demais!",
     rating: 5,
-    avatar: "JS"
+    avatar: "JS",
+    image: joaoImage
   },
   {
     name: "Ana Costa",
@@ -24,7 +30,8 @@ const testimonials = [
     role: "CEO",
     content: "Como agência, precisávamos de uma solução que pudéssemos oferecer aos nossos clientes. O PortoMicro com modelo SaaS nos permite revender a plataforma e gerar uma nova fonte de receita recorrente.",
     rating: 5,
-    avatar: "AC"
+    avatar: "AC",
+    image: anaImage
   },
   {
     name: "Carlos Oliveira",
@@ -32,7 +39,8 @@ const testimonials = [
     role: "Proprietário",
     content: "Antes usávamos WhatsApp Web e perdíamos muitas vendas. Agora com os relatórios detalhados conseguimos otimizar nossa equipe e identificar os horários de pico. Resultado: 40% mais vendas!",
     rating: 5,
-    avatar: "CO"
+    avatar: "CO",
+    image: carlosImage
   }
 ];
 
@@ -67,10 +75,12 @@ const TestimonialsSection = () => {
                 </p>
                 
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-semibold text-sm lg:text-base">
-                      {testimonial.avatar}
-                    </span>
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden flex-shrink-0">
+                    <img 
+                      src={testimonial.image} 
+                      alt={testimonial.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="min-w-0">
                     <h4 className="font-semibold text-foreground text-sm lg:text-base">
