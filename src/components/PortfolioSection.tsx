@@ -155,7 +155,7 @@ const PortfolioSection = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/5573988247095"
+                  href="https://wa.me/5573988247095?text=Ola%20Estou%20Pronto%20para%20transformar%20Meu%20atendimento%20Com%20a%20Plataforma%20PortoMicro%20%2C%20Gostaria%20de%20Saber%20Mais"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300"
                 >
                   WhatsApp: (73) 98824-7095
