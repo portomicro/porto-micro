@@ -46,31 +46,41 @@ const Header = () => {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="sm">
-                <Menu className="h-5 w-5" />
+              <Button variant="ghost" size="sm" className="p-2">
+                <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-          <SheetContent side="right" className="w-80">
-            <div className="flex flex-col space-y-6 mt-8">
+          <SheetContent side="right" className="w-[300px] sm:w-[350px] p-6">
+            <div className="flex flex-col space-y-6 mt-6">
+              <div className="flex items-center space-x-2 pb-4 border-b border-border">
+                <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">PM</span>
+                </div>
+                <div>
+                  <h2 className="text-lg font-bold text-foreground">Porto Micro</h2>
+                  <p className="text-xs text-muted-foreground">Multi-Atendimento</p>
+                </div>
+              </div>
+              
               <nav className="flex flex-col space-y-4">
-                <a href="#recursos" className="text-lg text-foreground hover:text-primary transition-colors">
+                <a href="#recursos" className="text-lg text-foreground hover:text-primary transition-colors py-2">
                   Recursos
                 </a>
-                <a href="#planos" className="text-lg text-foreground hover:text-primary transition-colors">
+                <a href="#planos" className="text-lg text-foreground hover:text-primary transition-colors py-2">
                   Planos
                 </a>
-                <a href="#depoimentos" className="text-lg text-foreground hover:text-primary transition-colors">
+                <a href="#depoimentos" className="text-lg text-foreground hover:text-primary transition-colors py-2">
                   Depoimentos
                 </a>
               </nav>
               
-              <div className="flex flex-col space-y-4 pt-6 border-t border-border">
-                <Button asChild variant="outline" className="w-full">
+              <div className="flex flex-col space-y-3 pt-6 border-t border-border">
+                <Button asChild variant="outline" className="w-full h-12 text-base">
                   <a href="https://app.portomicro.com.br" target="_blank" rel="noopener noreferrer">
                     Entrar
                   </a>
                 </Button>
-                <Button asChild className="w-full bg-primary hover:bg-primary/90">
+                <Button asChild className="w-full h-12 text-base bg-primary hover:bg-primary/90">
                   <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
                     Começar Agora
                   </a>
