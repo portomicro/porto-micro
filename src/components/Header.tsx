@@ -36,12 +36,28 @@ const Header = () => {
           <a href="#depoimentos" className="text-muted-foreground hover:text-foreground transition-colors">
             Depoimentos
           </a>
+          <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">
+            FAQ
+          </a>
+          <a href="#ajuda" className="text-muted-foreground hover:text-foreground transition-colors">
+            Central de Ajuda
+          </a>
         </nav>
 
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-3">
+          <Button asChild variant="outline" size="sm">
+            <a href="https://app.portomicro.com.br" target="_blank" rel="noopener noreferrer">
+              Entrar
+            </a>
+          </Button>
           <Button asChild size="sm" className="bg-primary hover:bg-primary/90">
             <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
               Começar Agora
+            </a>
+          </Button>
+          <Button asChild variant="secondary" size="sm">
+            <a href="#demonstracao" className="text-secondary-foreground">
+              Agendar Demonstração
             </a>
           </Button>
         </div>
@@ -115,6 +131,20 @@ const Header = () => {
               >
                 Depoimentos
               </a>
+              <a 
+                href="#faq" 
+                className="text-lg text-foreground hover:text-primary transition-colors py-3 border-b border-border/30"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FAQ
+              </a>
+              <a 
+                href="#ajuda" 
+                className="text-lg text-foreground hover:text-primary transition-colors py-3 border-b border-border/30"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Central de Ajuda
+              </a>
             </nav>
           </div>
           
@@ -128,6 +158,11 @@ const Header = () => {
               <Button asChild className="w-full h-12 text-base bg-primary hover:bg-primary/90">
                 <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
                   Começar Agora
+                </a>
+              </Button>
+              <Button asChild variant="secondary" className="w-full h-12 text-base">
+                <a href="#demonstracao">
+                  Agendar Demonstração
                 </a>
               </Button>
             </div>

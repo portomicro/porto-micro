@@ -8,44 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 45% 8%;
-    --foreground: 210 40% 98%;
+    /* Base Colors - Dark Purple Theme Inspired by Chama no ZAP */
+    --background: 260 40% 6%;
+    --foreground: 260 5% 95%;
 
-    --card: 220 35% 12%;
-    --card-foreground: 210 40% 98%;
+    --card: 260 35% 10%;
+    --card-foreground: 260 5% 95%;
 
-    --popover: 220 35% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 260 35% 10%;
+    --popover-foreground: 260 5% 95%;
 
-    --primary: 210 100% 56%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Brand Colors - Purple/Magenta Gradient */
+    --primary: 280 85% 60%;
+    --primary-foreground: 260 5% 98%;
 
-    --secondary: 217 15% 20%;
-    --secondary-foreground: 210 40% 98%;
+    /* Secondary Colors - Dark Purple */
+    --secondary: 265 35% 15%;
+    --secondary-foreground: 260 5% 90%;
 
-    --muted: 217 15% 20%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 265 25% 18%;
+    --muted-foreground: 260 15% 70%;
 
-    --accent: 142 76% 36%;
-    --accent-foreground: 210 40% 98%;
+    /* Accent Colors - Cyan/Turquoise */
+    --accent: 185 100% 55%;
+    --accent-foreground: 260 40% 6%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 260 5% 98%;
 
-    --border: 217 15% 20%;
-    --input: 217 15% 20%;
-    --ring: 210 100% 56%;
+    --border: 265 25% 18%;
+    --input: 265 25% 18%;
+    --ring: 280 85% 60%;
 
     --radius: 0.75rem;
 
-    /* Porto Micro Custom Variables */
-    --gradient-primary: linear-gradient(135deg, hsl(220, 70%, 15%) 0%, hsl(210, 100%, 25%) 50%, hsl(195, 100%, 35%) 100%);
-    --gradient-secondary: linear-gradient(45deg, hsl(142, 76%, 36%) 0%, hsl(158, 64%, 45%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(220, 45%, 8%) 0%, hsl(210, 60%, 20%) 50%, hsl(200, 100%, 30%) 100%);
+    /* Porto Micro Custom Variables - Updated for Purple Theme */
+    --gradient-primary: linear-gradient(135deg, hsl(280, 85%, 60%) 0%, hsl(300, 80%, 65%) 50%, hsl(185, 100%, 55%) 100%);
+    --gradient-secondary: linear-gradient(45deg, hsl(185, 100%, 55%) 0%, hsl(200, 90%, 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(260, 40%, 6%) 0%, hsl(270, 50%, 15%) 50%, hsl(280, 60%, 25%) 100%);
     
-    --shadow-glow: 0 0 40px hsl(210 100% 56% / 0.3);
-    --shadow-card: 0 10px 30px -10px hsl(220 45% 8% / 0.5);
-    --shadow-floating: 0 20px 60px -10px hsl(210 100% 56% / 0.2);
+    --shadow-glow: 0 0 40px hsl(280 85% 60% / 0.4);
+    --shadow-card: 0 10px 30px -10px hsl(260 40% 6% / 0.6);
+    --shadow-floating: 0 20px 60px -10px hsl(280 85% 60% / 0.3);
     
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -129,7 +133,7 @@ All colors MUST be HSL.
   .floating-icon:nth-child(4) { animation-delay: 3s; }
 
   .gradient-text {
-    background: linear-gradient(135deg, hsl(210 100% 56%), hsl(142 76% 36%));
+    background: linear-gradient(135deg, hsl(280 85% 60%), hsl(185 100% 55%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,7 +150,7 @@ All colors MUST be HSL.
 
   .card-floating:hover {
     transform: translateY(-8px);
-    box-shadow: 0 25px 80px -15px hsl(210 100% 56% / 0.4);
+    box-shadow: 0 25px 80px -15px hsl(280 85% 60% / 0.5);
   }
 }
 
