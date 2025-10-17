@@ -179,7 +179,7 @@ const PricingSection = () => {
                 
                 <div className="pt-6">
                   <a 
-                    href="https://p.portomicro.com.br/authentication/register"
+                    href="https://wa.me/557399345401?text=Ola%20Estou%20pronto%20para%20registrar%20na%20Plataforma%20%23PortoMicro"
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-3 px-6 rounded-lg font-semibold text-center block transition-all duration-300"
                   >
                     Começar Agora
@@ -195,7 +195,7 @@ const PricingSection = () => {
             Precisa de um plano personalizado para sua empresa?
           </p>
           <a 
-            href="https://p.portomicro.com.br/appointly/appointments_public/form?col=col-md-8+col-md-offset-2"
+            href="https://www.instagram.com/direct/t/107861590614958/"
             className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300"
           >
             Fale Conosco

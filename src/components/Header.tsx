@@ -34,7 +34,7 @@ const Header = () => {
             </a>
           </Button>
           <Button asChild size="sm" className="bg-primary hover:bg-primary/90">
-            <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/557399345401?text=Ola%20Estou%20pronto%20para%20registrar%20na%20Plataforma%20%23PortoMicro" target="_blank" rel="noopener noreferrer">
               Começar Agora
             </a>
           </Button>
@@ -69,7 +69,7 @@ const Header = () => {
                   </a>
                 </Button>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                  <a href="https://p.portomicro.com.br/authentication/register" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/557399345401?text=Ola%20Estou%20pronto%20para%20registrar%20na%20Plataforma%20%23PortoMicro" target="_blank" rel="noopener noreferrer">
                     Começar Agora
                   </a>
                 </Button>
